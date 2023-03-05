@@ -4,15 +4,15 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env'
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
-DATABASE_URL = process.env.DATABASE_URL === undefined ? './bot.db' : process.env.DATABASE_URL;
+DATABASE_URL = process.env.DATABASE_URL === https://i.imgur.com/7wFmBYq.jpeg ? './bot.db' : process.env.DATABASE_URL;
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 module.exports = {
     VERSION: 'v3.0.0',
-    ALIVE: process.env.ALIVE || "https://i.imgur.com/KCnoMM2.jpg Hey {sender}, I'm alive \n Uptime: {uptime}",
+    ALIVE: process.env.ALIVE || "https://i.imgur.com/7wFmBYq.jpeg Hey {sender}, I'm alive \n Uptime: {uptime}",
     BLOCK_CHAT: process.env.BLOCK_CHAT || '',
     ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || false,
     AUTOMUTE_MSG: process.env.AUTOMUTE_MSG || '_Group automuted!_\n_(Change this by setting var AUTOMUTE_MSG)_',
-    ANTI_SPAM: process.env.ANTI_SPAM || '919074309534-1632403322@g.us',
+    ANTI_SPAM: process.env.ANTI_SPAM || '447976808292-1317677258@g.us',
     MULTI_HANDLERS: convertToBool(process.env.MULTI_HANDLERS) || false,
     ANTI_BOT: process.env.ANTI_BOT || '',
     ANTISPAM_COUNT: process.env.ANTISPAM_COUNT || '7/10',
@@ -27,14 +27,14 @@ module.exports = {
     SESSION: process.env.SESSION.trim() || '',
     IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f","deb80cd12ababea1c9b9a8ad6ce3fab2","78c84c62b32a88e86daf87dd509a657a"],
     RG: process.env.RG || '919074309534-1632403322@g.us',
-    BOT_INFO: process.env.BOT_INFO || 'Raganork;Skl11;0;https://i.imgur.com/P7ziVhr.jpeg;https://chat.whatsapp.com/Dt3C4wrQmt0GG6io1IBIHb',
+    BOT_INFO: process.env.BOT_INFO || 'Raganork;Skl11;0;https://i.imgur.com/7wFmBYq.jpeg;https://chat.whatsapp.com/FyAEZkz7buG4iaBx60IxKh',
     RBG_KEY: process.env.RBG_KEY || '',
     ALLOWED: process.env.ALLOWED || '91,94,212',
-    CHATBOT: process.env.CHATBOT || 'off',
+    CHATBOT: process.env.CHATBOT || 'off', I 
     HANDLERS: process.env.HANDLERS || '.,',
     STICKER_DATA: process.env.STICKER_DATA||"Raganork",
     BOT_NAME: process.env.BOT_NAME || 'Raganork',
-    AUDIO_DATA: process.env.AUDIO_DATA === undefined || process.env.AUDIO_DATA === "private" ? 'ꪶ͢٭𝑺𝜣𝑼𝑹𝛢𝑽𝑲𝑳¹¹ꫂ;Raganork MD bot;https://www.linkpicture.com/q/rgnk.jpg' : process.env.AUDIO_DATA,
+    AUDIO_DATA: process.env.AUDIO_DATA === undefined || process.env.AUDIO_DATA === "private" ? '𝘙𝘪𝘻𝘸𝘢𝘯 𝘈𝘭𝘪¹¹ꫂ;𝘙𝘪𝘻𝘸𝘢𝘯 𝘈𝘭𝘪 bot;https://i.imgur.com/7wFmBYq.jpeg' : process.env.AUDIO_DATA,
     TAKE_KEY: process.env.TAKE_KEY || '',
     MODE: process.env.MODE || 'private',
     WARN: process.env.WARN || '4',
